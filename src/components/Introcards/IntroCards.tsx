@@ -11,7 +11,7 @@ export default function IntroCards () {
     <div className="container-intro">
       <section className={`left-intro big-card ${state.darkmode ? "dark-card" : "light-card"}`}>
         <h3 className={`${state.darkmode ? "dark-heading" : "light-heading"}`}>{ "Software Engineer at the intersection of AI/ML and Backend development"}</h3>
-        <p className={`${state.darkmode ? "dark-eyebrow" : "light-eyebrow"}`}>{"Starting with Python and JavaScript, I taught myself programming on my own. However, nowadays there is a lot to discover: Today I work on creating efficient & Scalabale Softwares using Typescript with Next.js for Web Development, Python for AI/ML, & PostgreSQL for Databases."}</p>
+        <p className={`${state.darkmode ? "dark-eyebrow" : "light-eyebrow"}`}>{"Starting with Python and JavaScript, I taught myself programming on my own. However, nowadays there is a lot to discover beyond simple tech: Today I work on creating efficient & scalabale software systems using Typescript with Next.js for Web Development, Python for AI/ML, & PostgreSQL for Databases."}</p>
       </section>
 
       <section className="right-intro" ref={scrollRef}>
