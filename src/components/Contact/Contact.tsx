@@ -14,7 +14,7 @@ export default function Contact() {
   const [state, dispatch] = useContext(store);
 
   const copyEmail = () => {
-    navigator.clipboard.writeText("ananaygupta23@gmail.com");
+    navigator.clipboard.writeText("pratikrana860@gmail.com");
     toast("Copied E-Mail" , {
       icon: "📧",
       position: "top-left",
@@ -95,7 +95,7 @@ export default function Contact() {
         >
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/ananay-gupta-2944aa216/"
+            href="https://www.linkedin.com/in/ranapratik/"
             onMouseDown={playAudio}
             onMouseUp={playAudio}
           >
@@ -113,7 +113,7 @@ export default function Contact() {
 
           <a
             target="_blank"
-            href="https://github.com/An-Yay"
+            href="https://github.com/pratikranaa"
             onMouseDown={playAudio}
             onMouseUp={playAudio}
           >
@@ -131,7 +131,7 @@ export default function Contact() {
 
           <a
             target="_blank"
-            href="https://twitter.com/_An_yay"
+            href="https://twitter.com/pratikranaa"
             onMouseDown={playAudio}
             onMouseUp={playAudio}
           >
@@ -149,7 +149,7 @@ export default function Contact() {
 
           <a
             target="_blank"
-            href="https://wa.me/+918130781382"
+            href="https://wa.me/+918580813320"
             onMouseDown={playAudio}
             onMouseUp={playAudio}
           >

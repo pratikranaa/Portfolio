@@ -85,7 +85,7 @@ export default function ContextMenu() {
 
       <a
         target="_blank"
-        href="https://www.linkedin.com/in/rana-pratik/"
+        href="https://www.linkedin.com/in/ranapratik/"
         onMouseDown={playAudio}
         onMouseUp={playAudio}
       >
