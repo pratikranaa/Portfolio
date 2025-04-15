@@ -57,7 +57,7 @@ export default function ContextMenu() {
       }`}
       id="context-menu"
     >
-      <a
+      {/* <a
         target="_blank"
         href="https://github.com/pratikranaa/Portfolio"
         onMouseDown={playAudio}
@@ -67,7 +67,7 @@ export default function ContextMenu() {
           <SourceCode className="context-icon" />
           <h3>{"Source Code"}</h3>
         </div>
-      </a>
+      </a> */}
 
       <a
         target="_blank"
