@@ -19,7 +19,7 @@ export default function Hero() {
       >
         <img
           className="img-avatar"
-          src={require("../../assets/images/avatar_test.png")}
+          src={require("../../assets/images/pratik.png")}
         />
       </motion.div>
 
