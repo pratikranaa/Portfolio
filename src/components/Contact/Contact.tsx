@@ -14,8 +14,8 @@ export default function Contact() {
   const [state, dispatch] = useContext(store);
 
   const copyEmail = () => {
-    navigator.clipboard.writeText("pratikrana859@gmail.com");
-    toast(state.language === "english" ? "Copied E-Mail" : "Copied E-Mail!", {
+    navigator.clipboard.writeText("ananaygupta23@gmail.com");
+    toast("Copied E-Mail" , {
       icon: "📧",
       position: "top-left",
       style: {
@@ -47,7 +47,7 @@ export default function Contact() {
         whileInView={{ y: 0 }}
         viewport={{ once: true }}
       >
-        {state.language === "english" ? "Contact" : "Contact"}
+        {"Contact"}
       </motion.h3>
       <motion.h1
         className={`heading ${
@@ -95,7 +95,7 @@ export default function Contact() {
         >
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/ranapratik/"
+            href="https://www.linkedin.com/in/ananay-gupta-2944aa216/"
             onMouseDown={playAudio}
             onMouseUp={playAudio}
           >
@@ -113,7 +113,7 @@ export default function Contact() {
 
           <a
             target="_blank"
-            href="https://github.com/pratikranaa"
+            href="https://github.com/An-Yay"
             onMouseDown={playAudio}
             onMouseUp={playAudio}
           >
@@ -131,7 +131,7 @@ export default function Contact() {
 
           <a
             target="_blank"
-            href="https://twitter.com/pratikranaa"
+            href="https://twitter.com/_An_yay"
             onMouseDown={playAudio}
             onMouseUp={playAudio}
           >
@@ -149,7 +149,7 @@ export default function Contact() {
 
           <a
             target="_blank"
-            href="https://wa.me/+918580813320"
+            href="https://wa.me/+918130781382"
             onMouseDown={playAudio}
             onMouseUp={playAudio}
           >
