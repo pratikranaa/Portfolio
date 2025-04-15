@@ -13,7 +13,7 @@ export default function ContextMenu() {
   const [state, dispatch] = useContext(store);
 
   const copyEmail = () => {
-    navigator.clipboard.writeText("ananaygupta23@gmail.com");
+    navigator.clipboard.writeText("pratikrana860@gmail.com");
     toast( "Copied E-Mail" , {
       icon: "📧",
       position: "top-left",
@@ -32,7 +32,7 @@ export default function ContextMenu() {
   };
 
   const copyURL = () => {
-    navigator.clipboard.writeText("https://twitter.com/_An_yay");
+    navigator.clipboard.writeText("https://twitter.com/pratikranaa");
     toast("Copied URL" , {
       icon: "🌐",
       position: "top-left",
@@ -59,7 +59,7 @@ export default function ContextMenu() {
     >
       <a
         target="_blank"
-        href="https://github.com/An-Yay/Portfolio"
+        href="https://github.com/pratikranaa/Portfolio"
         onMouseDown={playAudio}
         onMouseUp={playAudio}
       >
@@ -71,7 +71,7 @@ export default function ContextMenu() {
 
       <a
         target="_blank"
-        href="https://github.com/An-Yay"
+        href="https://github.com/pratikranaa"
         onMouseDown={playAudio}
         onMouseUp={playAudio}
       >
@@ -85,7 +85,7 @@ export default function ContextMenu() {
 
       <a
         target="_blank"
-        href="https://www.linkedin.com/in/ananay-gupta-2944aa216/"
+        href="https://www.linkedin.com/in/rana-pratik/"
         onMouseDown={playAudio}
         onMouseUp={playAudio}
       >

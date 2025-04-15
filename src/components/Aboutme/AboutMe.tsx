@@ -25,7 +25,7 @@ export default function AboutMe () {
 
       <IntroCards />
       <Showcase />
-      <EndCards />
+      {/* <EndCards /> */}
     </div>
   );
 }

@@ -53,7 +53,7 @@ export default function Resume() {
           </p>
           <a
             download="Ananay_Resume.pdf"
-            href={require("../../assets/documents/Ananay_Resume.pdf")}
+            href={require("../../assets/documents/Pratik_Rana_Resume_SDE.pdf")}
           >
             <button
               className="download"

@@ -33,7 +33,7 @@ export default function Hero() {
           y: { duration: 0.55, type: "spring" },
         }}
       >
-        Ananay Gupta
+        Pratik Rana
       </motion.h2>
 
       <motion.h1
@@ -46,7 +46,7 @@ export default function Hero() {
           y: { duration: 0.6, type: "spring" },
         }}
       >
-        {state.language === "english" ? "App & Web Developer" : "App & Web Developer"}
+        {state.language === "english" ? "AI/ML & Software Engineer" : "AI/ML & Software Engineer"}
       </motion.h1>
 
       <motion.h4
@@ -59,7 +59,7 @@ export default function Hero() {
           y: { duration: 0.55, type: "spring" },
         }}
       >
-        {state.language === "english" ? "inquisitive individual, constantly seeking out new and innovative practices to refine my skills and build cool stuff. " : "inquisitive individual, constantly seeking out new and innovative practices to refine my skills and build cool stuff. "}
+        {state.language === "english" ? "Inquisitive individual, constantly seeking out new & innovative practices to refine my skills and build useful solutions." : "Inquisitive individual, constantly seeking out new & innovative practices to refine my skills and build useful solutions."}
       </motion.h4>
 
       <motion.button
